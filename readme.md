@@ -5,19 +5,19 @@ Flex-io is a flexible plugin system that implements custom events you provide an
 ### Setup
 #### For maven users:
 - Add the TegnerCodes repository to your pom.xml
-  <repositories>
-	<repository>
-		<id>spigot-repo</id>
-		<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-	</repository>
-</repositories>
+    <repositories>
+      <repository>
+        <id>tegnercodes-release-repo</id>
+        <url>http://repo.tegnercodes.com/releases</url>
+      </repository>
+    </repositories>
 
 Then add the dependency on flex-io:
-<dependency>
-	<groupId>com.tegnercodes</groupId>
-	<artifactId>flex-io</artifactId>
-	<version>1.0.0</version>
-</dependency>
+    <dependency>
+      <groupId>com.tegnercodes</groupId>
+      <artifactId>flex-io</artifactId>
+      <version>1.0.0</version>
+    </dependency>
 
 
 #### Manuel setup.
